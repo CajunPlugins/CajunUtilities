@@ -36,7 +36,7 @@ namespace JsonUtils
 
 	static float GetSafeValue(const TSharedPtr<FJsonObject>& JsonObject, const FString& Key, const float Default)
 	{
-		return JsonObject->HasTypedField<EJson::Number>(Key) ? UE::Math::RoundDecimals(JsonObject->GetNumberField(Key), 3) : Default;
+		return JsonObject->HasTypedField<EJson::Number>(Key) ? JsonObject->GetNumberField(Key) : Default;
 	}
 
 	static FString GetSafeValue(const TSharedPtr<FJsonObject>& JsonObject, const FString& Key, const FString& Default)
