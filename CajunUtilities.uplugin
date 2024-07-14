@@ -2,11 +2,11 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"FriendlyName": "%FRIENDLY_NAME%",
-	"Description": "%DESCRIPTION%",
-	"Category": "%CATEGORY%",
-	"CreatedBy": "%CREATED_BY%",
-	"CreatedByURL": "%CREATED_BY_URL%",
+	"FriendlyName": "Cajun Utilities",
+	"Description": "Helpers",
+	"Category": "Cajun Plugins",
+	"CreatedBy": "Nicholas St. Germain",
+	"CreatedByURL": "https://cajun.pro",
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
@@ -16,7 +16,7 @@
 	"Installed": true,
 	"Modules": [
 		{
-			"Name": "%NAME%",
+			"Name": "CajunUtilities",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

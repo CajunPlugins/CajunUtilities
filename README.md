@@ -1,4 +1,4 @@
-# MyPlugin
+# Cajun Utilities
 
 To replace the name:
 ```bash
