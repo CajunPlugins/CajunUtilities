@@ -87,6 +87,9 @@ SourceArt/**/*.tga
 
 # Builds
 Build/*
+Releases/*
+*.7z
+*.zip
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
