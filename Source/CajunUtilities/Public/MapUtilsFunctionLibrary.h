@@ -4,13 +4,13 @@
 
 #include "Kismet/BlueprintFunctionLibrary.h"
 
-#include "UtilMapFunctionLibrary.generated.h"
+#include "MapUtilsFunctionLibrary.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class CAJUNUTILITIES_API UUtilMapFunctionLibrary : public UBlueprintFunctionLibrary
+class CAJUNUTILITIES_API UMapUtilsFunctionLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 public:
